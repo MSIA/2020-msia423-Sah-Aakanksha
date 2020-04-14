@@ -20,7 +20,7 @@
 <!-- tocstop -->
 
 ## Project Charter
-Developer: *Aakanksha Sah*
+Developer: *Aakanksha Sah* <br /> 
 QA: *Jing Ren*
 
 ### Vision: 
