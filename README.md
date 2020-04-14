@@ -54,7 +54,7 @@ Supervised machine learning models will then leverage this data to predict the p
 
 ### Epics & Stories
 
-- **Intiative 1:** Assess quality (completeness, consistency and correctness) of the
+- **Initiative 1:** Assess quality (completeness, consistency and correctness) of the
    input data and perform feature engineering, where applicable
    
    **Epic 1:** 
@@ -70,26 +70,55 @@ Supervised machine learning models will then leverage this data to predict the p
 	    **Stories:** 
 		(1) Are there certain symptoms that can be grouped because they mean the same thing and co-occur in the dataset? 
 		(2) Is the dataset huge and should it be subsetted in any way for the purpose of this project? If yes, how should that be done? 
+		(3)  Explore the possibility to add additional datasets (such as severity of disease, information about the disease)
  
-- **Intiative 2:**  
+- **Initiative 2:**  
 	- Develop multinomial classification models to identify patterns in symptoms (independent variables) and estimate their relationship with a particular disease (dependent variable)
    
-   **Epic 1:** 
-	    **Stories:** 
+     **Epic 1:** 
+	- Run model iterations
+	
+		 **Stories:** 
 		(1) Study about the different type of models that work well with such datasets (all categorical variables)
 		(2) How should the dataset be split into test and train?
 		(3) Run different models, compute accuracy (CCR, AUC) and put it together in a table
-		(4) For the best model, pre-compute the predicted probabilities for all diseases for all possible input combinations and store them in a dataset
 
-- **Intiative 3:** Build an informative and easy-to-use app in a way that helps users better understand  their condition and treat it sooner rather than later
+  **Epic 2:** 
+	- Select best model and pre-compute predictions
+	
+		**Stories:**
+	(1) For the best model, pre-compute the predicted probabilities for all diseases for all possible input combinations and store them in a dataset
+
+- **Initiative 3:** Build an informative and easy-to-use app in a way that helps users better understand  their condition and treat it sooner rather than later
    
    **Epic 1:** 
    - Design and build user interface
 	  
 	  **Stories:** 
 		(1) Build the app with basic functionality - which allows user to enter inputs and then view the disease predictions
-		(2) Add few more functionalities (such as, information about disease, its severity)
-    
+		(2) Expose app to final dataset with the pre-computed predictions
+		(3) Add additional functionalities (such as, information about disease, its severity)
+		(4) Add visualizations talking about the number of yearly cases of a particular disease
+		
+## Backlog
+
+Note: 1 bar = small (<1 day), 2 bar = medium (2-3 days), 3 bar = large (4-5 days)
+
+- Initiative1.Epic1.Story1 (1 bar) - PLANNED
+- Initiative1.Epic1.Story2 (2 bars) - PLANNED
+- Initiative1.Epic2.Story1 (1 bar) - PLANNED
+- Initiative1.Epic2.Story2 (1 bar) - PLANNED
+- Initiative2.Epic1.Story1 (1 bar) - PLANNED
+- Initiative2.Epic1.Story2 (1 bar) - PLANNED
+- Initiative2.Epic1.Story3 (2 bars) - PLANNED
+- Initiative2.Epic2.Story1 (2 bars) - PLANNED
+- Initiative3.Epic1.Story1 (3 bars) - PLANNED
+- Initiative3.Epic1.Story2 (2 bars) - PLANNED
+
+## Icelog
+- Initiative1.Epic2.Story3
+- Initiative3.Epic1.Story3
+- Initiative3.Epic1.Story4
 
 ## Directory structure 
 
