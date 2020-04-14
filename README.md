@@ -103,7 +103,7 @@ Supervised machine learning models will then leverage this data to predict the p
 		
 ## Backlog 
 
-Note: 1 bar = small (<1 day), 2 bar = medium (2-3 days), 3 bar = large (4-5 days)
+Note: 1 bar = small (<1 day), 2 bar = medium (2-3 days), 3 bar = large (4-5 days) <br /> 
 Mentioned in order of priority
 
 - Initiative1.Epic1.Story1 (1 bar) - PLANNED (Prioritized for the next 2 weeks)
