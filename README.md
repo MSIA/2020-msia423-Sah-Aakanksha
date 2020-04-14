@@ -60,17 +60,17 @@ Supervised machine learning models will then leverage this data to predict the p
    **Epic 1:** 
    - Perform an exhaustive exploratory data analysis of the various fields
 	  
-		  **Stories:** 
-			(1) Ensure detailed understanding of the meaning and value of the different columns in the dataset
-			(2) Calculate basic statistics, plot distributions, check for missing, null values or duplicate data
+	**Stories:** 
+	(1) Ensure detailed understanding of the meaning and value of the different columns in the dataset <br /> 
+	(2) Calculate basic statistics, plot distributions, check for missing, null values or duplicate data <br /> 
    
    **Epic 2:** 
 	- Explore scope for feature engineering and data manipulation
     
-	    **Stories:** 
-		(1) Are there certain symptoms that can be grouped because they mean the same thing and tend to occur together in the dataset? 
-		(2) Is the dataset huge and should it be subsetted in any way for the purpose of this project? If yes, how should that be done? 
-		(3)  Explore the possibility to add additional datasets (such as severity of disease, information about the disease)
+	 **Stories:** 
+	(1) Are there certain symptoms that can be grouped because they mean the same thing and tend to occur together in the dataset? <br /> 
+	(2) Is the dataset huge and should it be subsetted in any way for the purpose of this project? If yes, how should that be done? <br /> 
+	(3)  Explore the possibility to add additional datasets (such as severity of disease, information about the disease)<br /> 
  
 - **Initiative 2:**  
 	- Develop multinomial classification models to identify patterns in symptoms (independent variables) and estimate their relationship with the various diseases (dependent variable)
