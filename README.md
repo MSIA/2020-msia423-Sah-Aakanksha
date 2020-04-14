@@ -61,7 +61,7 @@ Supervised machine learning models will then leverage this data to predict the p
    - Perform an exhaustive exploratory data analysis of the various fields
 	  
 	**Stories:** <br /> 
-	(1) Ensure detailed understanding of the meaning and value of the different columns in the dataset <br /> 
+	(1) Put the dataset from the link mentioned above into a csv file and ensure detailed understanding of the meaning and value of the different columns in the dataset <br /> 
 	(2) Calculate basic statistics, plot distributions, check for missing, null values or duplicate data <br /> 
    
    **Epic 2:** 
