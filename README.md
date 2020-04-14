@@ -101,14 +101,15 @@ Supervised machine learning models will then leverage this data to predict the p
 	(3) Add additional functionalities (such as, information about disease, its severity) <br /> 
 	(4) Add visualizations talking about the number of yearly cases of diseases <br /> 
 		
-## Backlog
+## Backlog 
 
 Note: 1 bar = small (<1 day), 2 bar = medium (2-3 days), 3 bar = large (4-5 days)
+Mentioned in order of priority
 
-- Initiative1.Epic1.Story1 (1 bar) - PLANNED
-- Initiative1.Epic1.Story2 (2 bars) - PLANNED
-- Initiative1.Epic2.Story1 (1 bar) - PLANNED
-- Initiative1.Epic2.Story2 (1 bar) - PLANNED
+- Initiative1.Epic1.Story1 (1 bar) - PLANNED (Prioritized for the next 2 weeks)
+- Initiative1.Epic1.Story2 (2 bars) - PLANNED (Prioritized for the next 2 weeks)
+- Initiative1.Epic2.Story1 (1 bar) - PLANNED (Prioritized for the next 2 weeks)
+- Initiative1.Epic2.Story2 (1 bar) - PLANNED (Prioritized for the next 2 weeks)
 - Initiative2.Epic1.Story1 (1 bar) - PLANNED
 - Initiative2.Epic1.Story2 (1 bar) - PLANNED
 - Initiative2.Epic1.Story3 (2 bars) - PLANNED
