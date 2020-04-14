@@ -19,6 +19,78 @@
 
 <!-- tocstop -->
 
+## Project Charter
+Developer: *Aakanksha Sah*
+QA: *Jing Ren*
+
+### Vision: 
+One of the primary causes of treatment failures is the late identification and diagnosis of diseases. People are often unaware of different illnesses, the associated early indicators as well as their severity. This causes them to ignore the symptoms and let the condition worsen by the time they decide to finally visit a physician.
+
+The **Smart Healthcare app**  aims to augment the treatment process for all users. It  requires the user to select their symptoms and in turn provides a ranked list of 10 potential disease conditions that could be causing it. The app also details out some additional information about the various diseases and highlights the specific ones that are time-sensitive and should be taken seriously.
+
+### Mission:
+The **Smart Healthcare app** will be built on top of a [knowledge database](http://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html) of disease-symptom associations put together by the New York Presbyterian Hospital and made available for educational purposes. 
+
+Supervised machine learning models will then leverage this data to predict the probability of various diseases based on the selected symptoms. 
+
+### Success criteria
+ 1. **For the business:** 
+ 
+      A. *User downloads:* In the first month, the app should see a minimum of at least 1000 user downloads and a user-base growth of ~1% for the next 3 months. (Numbers decided based on the download patterns of similar apps in the market)
+      
+      B.  *Monthly Usage:* For the users who have downloaded the app, monthly usage should be ~2000 visits (Roughly, 2 visits per user per month)
+ 2. **For the model:** 
+ 
+      As the response variable (disease condition) is categorical in nature, the measure for evaluating model performance would be correct classification rate (CCR). As this is real-world data and the symptop-disease relationship could be quite fuzzy, the target CCR is 70% (threshold, below which the model/app will not be deployed)
+
+## Planning
+
+### Initiatives
+
+ - Assess quality (completeness, consistency and correctness) of the
+   input data and perform feature engineering, where applicable
+ - Develop multinomial classification models to identify patterns in symptoms (independent variables) and estimate their relationship with a particular disease (dependent variable)
+  - Build an informative and easy-to-use app in a way that helps users better understand  their condition and treat it sooner rather than later
+
+### Epics & Stories
+
+- **Intiative 1:** Assess quality (completeness, consistency and correctness) of the
+   input data and perform feature engineering, where applicable
+   
+   **Epic 1:** 
+   - Perform an exhaustive exploratory data analysis of the various fields
+	  
+	  **Stories:** 
+		(1) Ensure detailed understanding of the meaning and value of the different columns in the dataset
+		(2) Calculate basic statistics, plot distributions, check for missing, null values or duplicate data
+   
+   **Epic 2:** 
+	- Explore scope for feature engineering and data manipulation
+    
+	    **Stories:** 
+		(1) Are there certain symptoms that can be grouped because they mean the same thing and co-occur in the dataset? 
+		(2) Is the dataset huge and should it be subsetted in any way for the purpose of this project? If yes, how should that be done? 
+ 
+- **Intiative 2:**  
+	- Develop multinomial classification models to identify patterns in symptoms (independent variables) and estimate their relationship with a particular disease (dependent variable)
+   
+   **Epic 1:** 
+	    **Stories:** 
+		(1) Study about the different type of models that work well with such datasets (all categorical variables)
+		(2) How should the dataset be split into test and train?
+		(3) Run different models, compute accuracy (CCR, AUC) and put it together in a table
+		(4) For the best model, pre-compute the predicted probabilities for all diseases for all possible input combinations and store them in a dataset
+
+- **Intiative 3:** Build an informative and easy-to-use app in a way that helps users better understand  their condition and treat it sooner rather than later
+   
+   **Epic 1:** 
+   - Design and build user interface
+	  
+	  **Stories:** 
+		(1) Build the app with basic functionality - which allows user to enter inputs and then view the disease predictions
+		(2) Add few more functionalities (such as, information about disease, its severity)
+    
+
 ## Directory structure 
 
 ```
