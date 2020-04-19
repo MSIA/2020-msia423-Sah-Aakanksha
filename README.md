@@ -24,6 +24,7 @@ Developer: *Aakanksha Sah* <br />
 QA: *Jing Ren*
 
 ### Vision: 
+This needs to be changed
 One of the primary causes of treatment failures is the late identification and diagnosis of diseases. People are often unaware of different illnesses, the associated early indicators as well as their severity. This causes them to ignore the symptoms and let the condition worsen by the time they decide to finally visit a physician.
 
 The **Smart Healthcare app**  aims to augment the treatment process for all users. It  requires the user to select their symptoms and in turn provides a ranked list of 10 potential disease conditions that could be causing it. The app also details out some additional information about those diseases and highlights the specific ones that are time-sensitive and should be taken seriously.
