@@ -1,9 +1,5 @@
 # MSiA423 Template Repository
 
-[TOC]
-
-
-
 ## Project Charter
 
 Developer: **Aakanksha Sah**  <br/>
